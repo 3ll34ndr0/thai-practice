@@ -1,0 +1,15 @@
+your-domain.example {
+	# Defense-in-depth: reject oversized bodies before they even reach the app
+	# (the app also enforces this, but rejecting earlier is cheaper).
+	request_body {
+		max_size 2MB
+	}
+
+	reverse_proxy 127.0.0.1:8123
+
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+}

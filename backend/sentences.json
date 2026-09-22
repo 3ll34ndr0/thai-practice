@@ -1,0 +1,107 @@
+[
+  {
+    "id": "greet-1",
+    "thai": "สวัสดีครับ",
+    "romanization": "sawatdee khrap",
+    "translation_en": "Hello (male speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "greet-2",
+    "thai": "สวัสดีค่ะ",
+    "romanization": "sawatdee kha",
+    "translation_en": "Hello (female speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "thanks-1",
+    "thai": "ขอบคุณครับ",
+    "romanization": "khop khun khrap",
+    "translation_en": "Thank you (male speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "thanks-2",
+    "thai": "ขอบคุณค่ะ",
+    "romanization": "khop khun kha",
+    "translation_en": "Thank you (female speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "name-1",
+    "thai": "คุณชื่ออะไร",
+    "romanization": "khun cheu arai",
+    "translation_en": "What is your name?",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "nice-meet",
+    "thai": "ยินดีที่ได้รู้จัก",
+    "romanization": "yindee thee dai roo jak",
+    "translation_en": "Nice to meet you",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "weather-1",
+    "thai": "วันนี้อากาศดีมาก",
+    "romanization": "wan nee akat dee mak",
+    "translation_en": "Today the weather is very nice",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "hungry-1",
+    "thai": "ผมหิวข้าว",
+    "romanization": "phom hew khao",
+    "translation_en": "I am hungry (male speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "where-1",
+    "thai": "คุณอยู่ที่ไหน",
+    "romanization": "khun yoo thee nai",
+    "translation_en": "Where are you?",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "like-food",
+    "thai": "ฉันชอบกินอาหารไทย",
+    "romanization": "chan chop kin ahan thai",
+    "translation_en": "I like eating Thai food",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "sorry-1",
+    "thai": "ขอโทษครับ",
+    "romanization": "kho thot khrap",
+    "translation_en": "Sorry / excuse me (male speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "no-problem",
+    "thai": "ไม่เป็นไร",
+    "romanization": "mai pen rai",
+    "translation_en": "No problem / it's okay",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "how-much",
+    "thai": "อันนี้เท่าไหร่ครับ",
+    "romanization": "an nee tao rai khrap",
+    "translation_en": "How much is this? (male speaker)",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "bathroom",
+    "thai": "ห้องน้ำอยู่ที่ไหน",
+    "romanization": "hong nam yoo thee nai",
+    "translation_en": "Where is the bathroom?",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "understand-not",
+    "thai": "ผมไม่เข้าใจ",
+    "romanization": "phom mai khao jai",
+    "translation_en": "I don't understand (male speaker)",
+    "difficulty": "beginner"
+  }
+]

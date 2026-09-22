@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: thai-practice-host
+  namespace: default
+spec:
+  ports:
+    - port: 8123
+---
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: thai-practice-host
+  namespace: default
+subsets:
+  - addresses:
+      - ip: 66.94.113.102
+    ports:
+      - port: 8123
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: thai-practice
+  namespace: default
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: t.marso.ar
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: thai-practice-host
+                port:
+                  number: 8123
