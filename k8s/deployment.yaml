@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: thai-practice
-          image: ghcr.io/3ll34ndr0/thai-practice:bootstrap
+          image: ghcr.io/3ll34ndr0/thai-practice:f0400ae3b6a7006e446d778677f7d97ed86dd87e
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8123
